@@ -1,2 +1,2 @@
-runtime: python37
+runtime: python314
 entrypoint: gunicorn -b :$PORT hello_project.wsgi
